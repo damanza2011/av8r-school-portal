@@ -1,0 +1,9 @@
+{
+  "name": "av8r-school-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AV8R School portal prototype: bilingual FAA A&P pathway, programs, community and AV8R Guide chatbot.",
+  "engines": {
+    "node": ">=20"
+  }
+}
