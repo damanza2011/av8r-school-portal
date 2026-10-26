@@ -1,0 +1,19 @@
+AV8R School · GitHub Pages · versión de un solo archivo
+
+1. Descomprime este ZIP.
+2. En GitHub, abre el repositorio:
+   https://github.com/damanza2011/av8r-school-portal
+3. Add file -> Upload files.
+4. Sube el archivo index.html (reemplaza el existente).
+5. Sube también .nojekyll si GitHub no lo tomó.
+6. Commit changes.
+7. Espera 1-2 minutos y abre:
+   https://damanza2011.github.io/av8r-school-portal/
+8. Recarga con Ctrl+F5 o en incógnito.
+
+Este index.html ya tiene el CSS y el JavaScript dentro. No necesita las carpetas assets/ ni api/.
+El chat funciona en modo local. GitHub Pages no ejecuta la API de Gemini.
+
+Para verificar que quedó la versión nueva:
+- Ver código fuente de la página y buscar <style>.
+- Si sigue apareciendo assets/css/styles.css, el index.html viejo no fue reemplazado.
