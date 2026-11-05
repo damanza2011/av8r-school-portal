@@ -402,3 +402,59 @@ ul,ol{padding:0;list-style:none}
   .reveal-ready [data-reveal]{opacity:1;transform:none}
 }
 
+
+
+/* WhatsApp Accent Button & Contact Pills */
+.btn--wa {
+  background: #25D366;
+  color: #0A0F1D !important;
+  border-color: #25D366;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn--wa:hover {
+  background: #1EBE5D;
+  border-color: #1EBE5D;
+  color: #0A0F1D !important;
+  transform: translateY(-1px);
+}
+.btn--wa .icon {
+  width: 16px;
+  height: 16px;
+}
+.apply__link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  background: var(--sand);
+  border: 1px solid rgba(10,15,29,0.12);
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink);
+  transition: all .2s;
+  text-decoration: none;
+}
+.apply__link-btn:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+  background: #ffffff;
+}
+.apply__link-btn--wa {
+  border-color: rgba(37,211,102,0.4);
+  background: rgba(37,211,102,0.08);
+}
+.apply__link-btn--wa:hover {
+  background: rgba(37,211,102,0.18);
+  border-color: #25D366;
+  color: #0D6832;
+}
+.founder__actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}

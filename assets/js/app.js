@@ -10,7 +10,9 @@
   const $$ = (s, c = document) => Array.from(c.querySelectorAll(s));
 
   const CONFIG = {
-    email: 'hello@av8rschool.com',
+    email: 'aognestor@gmail.com',
+    whatsapp: '15617158036',
+    phoneDisplay: '+1 (561) 715-8036',
     skool: 'https://www.skool.com/av8rschool'
   };
 

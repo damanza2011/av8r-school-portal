@@ -11,7 +11,9 @@
   const sleep = ms => new Promise(r => setTimeout(r, ms));
 
   const CONFIG = {
-    email: 'hello@av8rschool.com',
+    email: 'aognestor@gmail.com',
+    whatsapp: '15617158036',
+    phoneDisplay: '+1 (561) 715-8036',
     skool: 'https://www.skool.com/av8rschool',
     api: '/api/chat'
   };
@@ -47,7 +49,7 @@
         { keys: ['comunidad', 'skool', 'community', 'miembros'], reply: 'AV8R School tiene una comunidad privada en Skool con 391 miembros, 9 cursos y 23 módulos (snapshot público). Incluye estudio, mentoría, guías FAST TRACK EN/ES y beneficios OEM.\n\n¿Quieres entrar a la comunidad o primero ver la ruta?' },
         { keys: ['empleador', 'empresa', 'contratar', 'employer', 'hire', 'talento'], reply: 'Si eres empleador, podemos explorar alianzas, prácticas y un pipeline de talento bilingüe. No es un job board automático todavía: se revisa el perfil y el modelo.\n\n¿Qué tipo de técnicos buscas?' },
         { keys: ['online', 'video', 'virtual', 'presencial'], reply: 'La teoría y la mentoría son online; la práctica, el oral/practical y el testing requieren un partner o DME autorizado. El video no reemplaza la práctica.\n\n¿Quieres ver la ruta completa?' },
-        { keys: ['humano', 'persona', 'asesor', 'nestor', 'contacto', 'hablar'], reply: 'Puedes hablar con AV8R en la comunidad de Skool: https://www.skool.com/av8rschool. También puedes escribir a hello@av8rschool.com.\n\n¿Quieres que te deje el enlace o prefieres seguir con la ruta?' },
+        { keys: ['humano', 'persona', 'asesor', 'nestor', 'contacto', 'hablar'], reply: 'Puedes hablar con AV8R en la comunidad de Skool: https://www.skool.com/av8rschool. También puedes escribir a aognestor@gmail.com.\n\n¿Quieres que te deje el enlace o prefieres seguir con la ruta?' },
         { keys: ['hola', 'hello', 'hi', 'buenas'], reply: 'Hola. Soy AV8R Guide. Puedo ayudarte con la ruta FAA, los cursos, la comunidad o el siguiente paso. ¿Dónde estás hoy: empezando, con experiencia o ya A&P?' }
       ]
     },
@@ -71,7 +73,7 @@
         { keys: ['community', 'skool', 'members'], reply: 'AV8R School has a private Skool community with 391 members, 9 courses and 23 modules (public snapshot). It includes study, mentorship, FAST TRACK guides EN/ES and OEM benefits.\n\nWould you like to join the community or see the path first?' },
         { keys: ['employer', 'company', 'hire', 'talent'], reply: 'If you are an employer, we can explore alliances, internships and a bilingual talent pipeline. It is not an automatic job board yet: we review the profile and model.\n\nWhat kind of technicians are you looking for?' },
         { keys: ['online', 'video', 'virtual', 'in person'], reply: 'Theory and mentorship are online; practice, oral/practical and testing require an authorized partner or DME. Video does not replace practice.\n\nWould you like to see the full path?' },
-        { keys: ['human', 'person', 'advisor', 'nestor', 'contact', 'talk'], reply: 'You can talk to AV8R in the Skool community: https://www.skool.com/av8rschool. You can also email hello@av8rschool.com.\n\nWould you like the link or shall we continue with the path?' },
+        { keys: ['human', 'person', 'advisor', 'nestor', 'contact', 'talk'], reply: 'You can talk to AV8R in the Skool community: https://www.skool.com/av8rschool. You can also email aognestor@gmail.com.\n\nWould you like the link or shall we continue with the path?' },
         { keys: ['hello', 'hi', 'hey'], reply: 'Hi. I am AV8R Guide. I can help with the FAA path, courses, community or next step. Where are you today: starting, experienced, or already A&P?' }
       ]
     }
